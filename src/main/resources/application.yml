@@ -1,3 +1,6 @@
+server:
+  port: 8001
+
 spring:
   application:
     name: lucky-world
@@ -5,6 +8,6 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/kennyk65/Microservices-With-Spring-Student-Files
+          uri: https://github.com/javadriven/spring_cloud_config
           search-paths: ConfigData
-      uri: http://localhost:8888
+      uri: http://localhost:8001
