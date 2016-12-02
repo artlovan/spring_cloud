@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: lucky-world
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/kennyk65/Microservices-With-Spring-Student-Files
+          search-paths: ConfigData
+      uri: http://localhost:8888
