@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: lucky-world
+    name: spring_cloud_server
   cloud:
     config:
       server:
